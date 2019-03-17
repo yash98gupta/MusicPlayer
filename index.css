@@ -1,0 +1,432 @@
+/* body */
+body{
+  background: #0c0f27;
+}
+/* body end */
+
+/* nav start */
+.Nav{
+  width: 100%;
+  height: 8vh;
+  background-color: grey;
+}
+
+.NinjaStudioLogo{
+  width: 14vw;
+  height: -webkit-fill-available;
+  display: inline-block;
+  background-color: black;
+  margin-left: 2vw;
+}
+
+.NavFav{
+  width: 38vw;
+  height: -webkit-fill-available;
+  display: inline-block;
+  background-color: black;
+  margin-right: 6vw;
+  margin-left: 4vw;
+
+}
+
+.NavSearch{
+  width: 16vw;
+  height: -webkit-fill-available;
+  display: inline-block;
+  background-color: black;
+  margin-right: 3vw;
+}
+
+.NavNotifications{
+  width: 5vw;
+  height: -webkit-fill-available;
+  display: inline-block;
+  background-color: black;
+  margin-right: 1vw;
+}
+
+.NavUser{
+  width: 6vw;
+  height: -webkit-fill-available;
+  display: inline-block;
+  background-color: black;
+}
+
+/* left bode */
+.leftBody{
+  display: inline-block;
+  width: 65vw;
+  margin: 20px;
+}
+
+/* crousel */
+
+.crouselMain{
+  display: inline-block;
+  width: 65vw;
+}
+
+.first_div{
+  background-color: blue;
+  display: inline-block;
+  width: 33%;
+  height: 35vh;
+  position: relative;
+  z-index: 0;
+  left: 3vw;
+  background: url("internationalNewRelease.png")  no-repeat;
+  background-size: contain;
+}
+
+.second_div{
+  background-color: green;
+  display: inline-block;
+  width: 33%;
+  height: 22vh;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+  background: url(internationalNewRelease.png) no-repeat;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: -15vh;
+  back
+}
+
+.third_div{
+  background-color: red;
+  display: inline-block;
+  width: 33%;
+  height: 35vh;
+  left: -3vw;
+  position: relative;
+  background: url("internationalNewRelease.png")  no-repeat;
+  background-size: contain;
+}
+
+/* latest release */
+
+.latestReleaseDivPic{
+  background: url("latestRelease.png")  no-repeat;
+  background-size: contain;
+  width: 10vw;
+  height: -webkit-fill-available;
+  display: inline-block;
+}
+
+.latestReleaseDivWrite1 {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  top: -4vh;
+}
+
+.latestReleaseDivWrite2 {
+  display: inline-block;
+  position: relative;
+  top: -4vh;
+}
+
+
+.latestReleaseDiv{
+  width: 65.3vw;
+  display: inline-block;
+  margin: 30px;
+  top: -10vh;
+  position: relative;
+  margin: 30px;
+}
+
+.latestFirst{
+  background-color: transparent;
+  display: inline-block;
+  width: 49.5%;
+  height: 14vh;
+}
+
+.latestSecond{
+  background-color: transparent;
+  display: inline-block;
+  width: 49.5%;
+  height: 14vh;
+}
+
+.latestThird{
+  background-color: transparent;
+  display: inline-block;
+  width: 49.5%;
+  height: 14vh;
+}
+
+.latestFourth{
+  background-color: transparent;
+  display: inline-block;
+  width: 49.5%;
+  height: 14vh;
+}
+
+/* popular artist */
+.ArtistMainDiv{
+  width: 65vw;
+  display: inline-block;
+  margin: 30px;
+}
+
+.ArtistDiv{
+  width: 15%;
+  height: 132px;
+  background-color: blue;
+  margin: 2px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#artist1{
+  background: url("edSheeran.jpg")  no-repeat;
+  background-size: cover;
+}
+
+#artist2{
+  background: url("arijit.jpg")  no-repeat;
+  background-size: cover;
+}
+
+#artist3{
+  background: url("coldplay.jpg")  no-repeat;
+  background-size: cover;
+}
+
+#artist4{
+  background: url("zyan.jpg")  no-repeat;
+  background-size: cover;
+}
+
+#artist5{
+  background: url("arijit.jpg")  no-repeat;
+  background-size: cover;
+}
+#artist6{
+  background: url("zyan.jpg")  no-repeat;
+  background-size: cover;
+}
+
+
+
+/* random Logo */
+
+.RandomMainDiv{
+  width: 65vw;
+  display: inline-block;
+  background-color: #0f1642;
+  margin: 30px;
+}
+
+.RandomDiv{
+  width: 12.7%;
+  height: 111px;
+  background-color: blue;
+  margin: 2px;
+  display: inline-block;
+  border-radius: 50%;
+  background: url("retroMusic.jpg")  no-repeat;
+  background-size: cover;
+}
+/* party Electronic road trip */
+.PETMainDiv{
+  width: 65vw;
+  display: inline-block;
+  margin: 30px;
+}
+
+.PETDiv{
+  width: 32.5%;
+  height: 132px;
+  background-color: red;
+  margin: 2px;
+  display: inline-block;
+}
+#PETDIV1{
+  background: url("Party.png")  no-repeat;
+  background-size: cover;
+}
+
+#PETDIV2{
+  background: url("Electronic.png")  no-repeat;
+  background-size: cover;
+}
+
+#PETDIV3{
+  background: url("roadTrip.png")  no-repeat;
+  background-size: cover;
+}
+
+/* category english hindi*/
+.LanguageSongMainDiv{
+  width: 65vw;
+  display: inline-block;
+  margin: 30px;
+}
+
+.LangSongDiv{
+  width: 15.8%;
+  height: 120px;
+  background-color: red;
+  margin: 2px;
+  display: inline-block;
+}
+
+#LangSongDiv1{
+  background: url("f1.jpg")  no-repeat;
+  background-size: cover;
+}
+#LangSongDiv2{
+  background: url("f2.jpg")  no-repeat;
+  background-size: cover;
+}
+#LangSongDiv3{
+  background: url("f3.jpg")  no-repeat;
+  background-size: cover;
+}
+#LangSongDiv4{
+  background: url("f4.jpg")  no-repeat;
+  background-size: cover;
+}
+#LangSongDiv5{
+  background: url("f5.jpg")  no-repeat;
+  background-size: cover;
+}
+#LangSongDiv6{
+  background: url("f3.jpg")  no-repeat;
+  background-size: cover;
+}
+
+/* Queue */
+.QueueMainDiv{
+  width: 31.1vw;
+  height: 95vh;
+  background: transparent;
+  display: inline-block;
+  position: absolute;
+  top: 13vh;
+}
+
+.QueueListElements{
+  background: transparent;
+  width: -webkit-fill-available;
+  height: 7.5vh;
+  margin: 14px;
+}
+
+.QueueListElementsPic{
+  background: url("leftBar.jpg")  no-repeat;
+  background-size: contain;
+  width: 6vw;
+  height: -webkit-fill-available;
+  display: inline-block;
+}
+
+.QueueListElementsText1 {
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  top: -2vh;
+  margin-left: 10px;
+}
+
+.QueueListElementsText2 {
+  display: inline-block;
+  position: relative;
+  top: -2vh;
+}
+/* ---------- */
+
+
+
+body{
+    margin:0;
+    padding:0;
+    font:10px;
+    background-color: #0c1027;
+    color:white;
+}
+.header{
+    display: flex;
+    margin:0.5em;
+    justify-content: space-around;
+}
+.heading-logo-image{
+    width:5em;
+    border-radius:50%;
+}
+.brand{
+margin-top: 1.5em;
+margin-left: 1.2em;
+}
+.fav-text{
+  width: 30%;
+  padding-left: 3%;
+  vertical-align: middle;
+}
+.fav-text p{
+    margin-top: 1.5em
+}
+
+.search {
+  background-color: #192453;
+  border: none;
+  border: solid #192453;
+  border-radius: 2rem;
+  height: 2em;
+  width: 20em;
+  margin-top: 1.5em;
+  background-image: url(<i class="fas fa-search"></i>);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 21px !important;
+  color: white;
+}
+
+.search input{
+  background-color: #192453;
+  border: none;
+  border: solid #192453;
+  height: 2em;
+  width: 22em;
+  background-image: url(<i class="fas fa-search"></i>);
+  background-position: 3px 50%;
+  background-repeat: no-repeat;
+  padding-left: 21px !important;
+  color: white;
+}
+
+.user_img img{
+  width:3rem;
+  border-radius:50%;
+  padding-top: 15px;
+}
+.notification-icon i{
+    margin-top: 1.2em;
+}
+.main-section{
+  display: inline-block;
+  width:75%;
+}
+.Queue{
+      display: inline-block;
+      width:20%;
+      height: 20%;
+      background-color: red;
+}
+.latest-releases{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.album-img{
+  width:7em;
+}
+
+.notificationIcon{
+  font-size: 23px;
+}
